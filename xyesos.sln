@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xyesos", "xyesos.csproj", "{813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "..\UnitTestProject1\UnitTestProject1.csproj", "{90E47624-EE31-421C-816F-B7DB511ED5F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2} = {813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813BBDBB-53DB-44A9-9A5E-D5FC4B40F3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E47624-EE31-421C-816F-B7DB511ED5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E47624-EE31-421C-816F-B7DB511ED5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E47624-EE31-421C-816F-B7DB511ED5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E47624-EE31-421C-816F-B7DB511ED5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73FC160A-F67A-42D7-95B1-70B4AF0CE85E}
+	EndGlobalSection
+EndGlobal
